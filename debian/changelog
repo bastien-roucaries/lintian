@@ -11,6 +11,9 @@ lintian (2.5.20) UNRELEASED; urgency=low
     + [BR] Improve description of pkg-config-multi-arch-wrong-dir
       tag. Add debhelper > 9 on non multi-arched package as a likely
       cause (Closes: #723886).
+    + [BR] Detect privacy breach (visitor tracking) in html files 
+      (Closes: #637580) and particularly Google Adsense 
+      (Closes: #718427).
   * checks/watch.{desc,pm}:
     + [BR] Detect lack of uscan support for gpg signature.
       (Closes: #711553).
